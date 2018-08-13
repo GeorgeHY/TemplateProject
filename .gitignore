@@ -21,12 +21,29 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.pyc
+*.pyo
+__pycache__
+*.rej
+*~
+.#*
+.*.swp
+.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
 *.dSYM.zip
 *.dSYM
+*.xcworkspace
+!default.xcworkspace
 
 # CocoaPods
 #
@@ -34,7 +51,10 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
+!Podfile
+Podfile.lock
+project.xcworkspace
 
 # Carthage
 #
@@ -61,3 +81,7 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+
+
+#*#
