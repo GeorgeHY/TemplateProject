@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A416FB9021F580E400F8DD82 /* HYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A416FB8F21F580E400F8DD82 /* HYButton.m */; };
+		A416FB9921F5865A00F8DD82 /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A416FB9321F5865900F8DD82 /* DateTool.m */; };
+		A416FB9A21F5865A00F8DD82 /* LanguageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A416FB9621F5865900F8DD82 /* LanguageConfig.m */; };
+		A416FB9B21F5865A00F8DD82 /* NSBundle+LanguageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A416FB9821F5865900F8DD82 /* NSBundle+LanguageConfig.m */; };
 		A44801E52121B244002F986D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A44801E42121B244002F986D /* AppDelegate.m */; };
 		A44801E82121B244002F986D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44801E72121B244002F986D /* ViewController.m */; };
 		A44801EB2121B244002F986D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44801E92121B244002F986D /* Main.storyboard */; };
@@ -16,7 +20,6 @@
 		A44801F62121B247002F986D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A44801F52121B247002F986D /* main.m */; };
 		A44802002121B247002F986D /* TemplateProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44801FF2121B247002F986D /* TemplateProjectTests.m */; };
 		A448020B2121B247002F986D /* TemplateProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A448020A2121B247002F986D /* TemplateProjectUITests.m */; };
-		A448021B2121B8EB002F986D /* HYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A448021A2121B8EB002F986D /* HYButton.m */; };
 		CDEC76F4887596710E3BDD6F /* libPods-TemplateProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B626B2E1CDD1C1050DCB3506 /* libPods-TemplateProject.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,14 @@
 /* Begin PBXFileReference section */
 		25977E8462F03FF3A0A4C28F /* Pods-TemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateProject/Pods-TemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		366F26EC679CF297114076D6 /* Pods-TemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateProject/Pods-TemplateProject.release.xcconfig"; sourceTree = "<group>"; };
+		A416FB8E21F580E400F8DD82 /* HYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYButton.h; sourceTree = "<group>"; };
+		A416FB8F21F580E400F8DD82 /* HYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYButton.m; sourceTree = "<group>"; };
+		A416FB9221F5865900F8DD82 /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
+		A416FB9321F5865900F8DD82 /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		A416FB9521F5865900F8DD82 /* LanguageConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageConfig.h; sourceTree = "<group>"; };
+		A416FB9621F5865900F8DD82 /* LanguageConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageConfig.m; sourceTree = "<group>"; };
+		A416FB9721F5865900F8DD82 /* NSBundle+LanguageConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LanguageConfig.h"; sourceTree = "<group>"; };
+		A416FB9821F5865900F8DD82 /* NSBundle+LanguageConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LanguageConfig.m"; sourceTree = "<group>"; };
 		A44801E02121B244002F986D /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44801E32121B244002F986D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A44801E42121B244002F986D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,8 +68,6 @@
 		A44802062121B247002F986D /* TemplateProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A448020A2121B247002F986D /* TemplateProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateProjectUITests.m; sourceTree = "<group>"; };
 		A448020C2121B247002F986D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A44802192121B8EB002F986D /* HYButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYButton.h; sourceTree = "<group>"; };
-		A448021A2121B8EB002F986D /* HYButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYButton.m; sourceTree = "<group>"; };
 		B626B2E1CDD1C1050DCB3506 /* libPods-TemplateProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemplateProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,6 +114,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A416FB8D21F580E400F8DD82 /* 按钮控件 */ = {
+			isa = PBXGroup;
+			children = (
+				A416FB8E21F580E400F8DD82 /* HYButton.h */,
+				A416FB8F21F580E400F8DD82 /* HYButton.m */,
+			);
+			path = "按钮控件";
+			sourceTree = "<group>";
+		};
+		A416FB9121F5865900F8DD82 /* 日期工具 */ = {
+			isa = PBXGroup;
+			children = (
+				A416FB9221F5865900F8DD82 /* DateTool.h */,
+				A416FB9321F5865900F8DD82 /* DateTool.m */,
+			);
+			path = "日期工具";
+			sourceTree = "<group>";
+		};
+		A416FB9421F5865900F8DD82 /* 国际化 */ = {
+			isa = PBXGroup;
+			children = (
+				A416FB9521F5865900F8DD82 /* LanguageConfig.h */,
+				A416FB9621F5865900F8DD82 /* LanguageConfig.m */,
+				A416FB9721F5865900F8DD82 /* NSBundle+LanguageConfig.h */,
+				A416FB9821F5865900F8DD82 /* NSBundle+LanguageConfig.m */,
+			);
+			path = "国际化";
+			sourceTree = "<group>";
+		};
 		A44801D72121B244002F986D = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +168,7 @@
 		A44801E22121B244002F986D /* TemplateProject */ = {
 			isa = PBXGroup;
 			children = (
-				A44802182121B8AF002F986D /* class */,
+				A44802182121B8AF002F986D /* ToolClass */,
 				A44801E32121B244002F986D /* AppDelegate.h */,
 				A44801E42121B244002F986D /* AppDelegate.m */,
 				A44801E62121B244002F986D /* ViewController.h */,
@@ -163,13 +201,14 @@
 			path = TemplateProjectUITests;
 			sourceTree = "<group>";
 		};
-		A44802182121B8AF002F986D /* class */ = {
+		A44802182121B8AF002F986D /* ToolClass */ = {
 			isa = PBXGroup;
 			children = (
-				A44802192121B8EB002F986D /* HYButton.h */,
-				A448021A2121B8EB002F986D /* HYButton.m */,
+				A416FB9421F5865900F8DD82 /* 国际化 */,
+				A416FB9121F5865900F8DD82 /* 日期工具 */,
+				A416FB8D21F580E400F8DD82 /* 按钮控件 */,
 			);
-			path = class;
+			path = ToolClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,10 +383,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44801EE2121B244002F986D /* TemplateProject.xcdatamodeld in Sources */,
+				A416FB9921F5865A00F8DD82 /* DateTool.m in Sources */,
 				A44801E82121B244002F986D /* ViewController.m in Sources */,
 				A44801F62121B247002F986D /* main.m in Sources */,
+				A416FB9B21F5865A00F8DD82 /* NSBundle+LanguageConfig.m in Sources */,
+				A416FB9A21F5865A00F8DD82 /* LanguageConfig.m in Sources */,
 				A44801E52121B244002F986D /* AppDelegate.m in Sources */,
-				A448021B2121B8EB002F986D /* HYButton.m in Sources */,
+				A416FB9021F580E400F8DD82 /* HYButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
